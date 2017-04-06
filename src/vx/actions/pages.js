@@ -1,5 +1,6 @@
 import { GET_PAGES, PAGINATE_PAGES, CREATE_PAGE, DELETE_PAGE, UPDATE_PAGE } from '../types'
 import { GET, POST, DELETE, PATCH, PAGINATE_QUERY } from 'utils/ajax'
+import Promise from 'nd-promise'
 
 export default {
   getPages ({ dispatch }, { query = PAGINATE_QUERY } = {}) {

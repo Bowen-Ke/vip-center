@@ -1,0 +1,139 @@
+/*html {
+ font-size:75px
+}*/
+
+
+
+.c-vip{
+  align-content: center;
+  position:absolute;
+  background-color:#38adff;
+  height: 370px;
+  width: 100%;
+
+}
+.c-vip-img{
+
+  width: 250px;
+  height: 250px;
+  position:absolute;
+  text-align: center;
+  left: 0;
+  right: 0;
+  margin: 0px auto 0px auto;
+
+}
+.c-vip-text{
+  font-size:24px;
+ color: #2a82bf;
+ position:absolute;
+ text-align: center;
+ left: 0;
+ right: 0;
+ margin: 150px auto 0px auto;
+}
+
+.c-vip-text2{
+  font-size:36px;
+  font-weight:500;
+ color: #0090ff;
+ position:absolute;
+ text-align: center;
+ left: 0;
+ right: 0;
+ margin: 100px auto 0px auto;
+}
+.c-vip-text3{
+ font-size:24px;
+ color: #9bd6ff;
+ position:absolute;
+ text-align: center;
+ left: 0;
+ right: 0;
+ margin: 230px auto 0px auto;
+}
+.c-vip-flower-title{
+  font-size:28px;
+  color: #999999;
+  position:absolute;
+  vertical-align: middle;
+  padding-left:20px;
+   line-height:68px;
+  height: 68px;
+  left: 0;
+  right: 0;
+  margin: 370px 0px 0px 0px;
+}
+.c-vip-line{
+  height: 1px;
+  color: #dddddd;
+  left: 0;
+  right: 0;
+  margin: 438px 0px 0px 0px;
+}
+.c-vip-flower{
+  height: 130px;
+}
+.c-vip-flower-img{
+  padding-left:20px;
+}
+.c-vip-flower-name{
+  font-size:32px;
+  color: #333333;
+  position:absolute;
+  left: 140px;
+  right: 0;
+  margin: -100px 0px 0px 0px;
+}
+.c-vip-flower-desc{
+  font-size:28px;
+  color: #999999;
+  position:absolute;
+  left: 140px;
+  right: 0;
+  margin: -50px 0px 0px 0px;
+}
+
+.c-vip-line2{
+  height: 20px;
+  color: #dddddd;
+  background: #f0f0f0;
+  left: 0;
+  right: 0;
+  margin: 0px 0px 0px 0px;
+}
+
+.c-vip-line3{
+  height: 1px;
+  color: #dddddd;
+  background: #f0f0f0;
+  left: 0;
+  right: 0;
+  margin: 0px 0px 0px 0px;
+}
+
+
+.c-vip-button{
+ font-size:30px;
+ color: #ffffff;
+ border-style: solid;
+ border-color:#ffffff;
+ border-width:2px;
+ background-color: #17A0B5;
+ border-radius:8px;
+ height: 60px;
+ width:224px;
+ position:absolute;
+ align: center;
+ left: 0;
+ right: 0;
+ margin: 280px auto 0px auto;
+ /*& active {
+   background-color: color(black lightness(+20%));
+ }*/
+}
+
+.c-vip-button:active{
+   /*background-color: color(black lightness(+20%));*/
+   background-color:red;
+}

@@ -23,6 +23,7 @@
 <script>
 import Pane from './c-pane'
 import Mask from './c-mask'
+import Promise from 'nd-promise'
 export default {
   props: {
     show: {

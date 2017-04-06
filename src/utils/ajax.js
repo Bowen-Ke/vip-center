@@ -1,7 +1,7 @@
 import 'whatwg-fetch'
 import qs from 'querystring'
 import store from 'vx/store'
-import { auth } from 'vx/getters'
+// import { auth } from 'vx/getters'
 import { SET_PROGRESS, ADD_TOAST, DELETE_TOAST } from 'vx/types'
 
 const defaultHeaders = {
@@ -25,11 +25,23 @@ function addToast (toast) {
 function mutate (url, { headers, body, query, ...options }) {
   headers = { ...defaultHeaders, ...headers }
   options.headers = headers
-
-  const bearer = auth(store.state)
-  if (bearer) {
-    headers['Authorization'] = 'Bearer ' + bearer.token
+  alert('sb')
+  if (window.Bridge) {
+    var uc = window.Bridge.require('sdp.uc')
+    // var ret = uc.getMACContent({ 'url':  url, 'method': options.method })
+    var ret = uc.getMACContent({ 'url': location.origin + '/' + url, 'method': options.method })
+    alert(ret.result)
+    if (ret.result === true) {
+      alert(ret.returnMessage)
+      headers['Authorization'] = ret.returnMessage.replace(/\\"/g, '"')
+      alert(headers['Authorization'])
+    }
   }
+
+  // const bearer = auth(store.state)
+  // if (bearer) {
+  //   headers['Authorization'] = 'Bearer ' + bearer.token
+  // }
 
   if (body) {
     if (typeof body === 'object') {
@@ -45,7 +57,7 @@ function mutate (url, { headers, body, query, ...options }) {
     url += (url.indexOf('?') !== -1) ? '&' : '?'
     url += query
   }
-
+  // alert(url)
   return [url, options]
 }
 
@@ -53,6 +65,7 @@ const ajax = (url, options = {}) => {
   setProgress(99)
   return fetch(...mutate(url, options))
   .then(res => {
+    // alert(res.status)
     if (res.status >= 200 && res.status < 400) {
       return res
     } else {

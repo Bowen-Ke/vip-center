@@ -2,4 +2,7 @@
 }
 
 .c-image-img {
+  clear: both;
+ display: block;
+ margin:auto;
 }

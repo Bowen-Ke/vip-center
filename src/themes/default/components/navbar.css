@@ -8,10 +8,10 @@
   position: absolute;
   z-index: 102;
   right: 0;
-  width: 4rem;
+  width: 0.853rem;
   color: white;
-  font-size: 1.2rem;
-  line-height: 4rem;
+  font-size: 0.256rem;
+  line-height: 0.853rem;
   text-align: center;
 
   &.active {
@@ -50,8 +50,8 @@
 
   & a {
     display: block;
-    padding: 0 1rem;
-    line-height: 4rem;
+    padding: 0 0.213rem;
+    line-height: 0.853rem;
     text-decoration: none;
 
     &:active {

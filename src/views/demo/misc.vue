@@ -1,28 +1,227 @@
-<template>
-  <div class="demo-misc">
-    <image src="images/logo.png"></image>
-    <pane>pane</pane>
-    <flex-box>
-      <flex-item>flex-item-1</flex-item>
-      <flex-item>flex-item-2</flex-item>
-      <flex-item>flex-item-3</flex-item>
-    </flex-box>
-  </div>
-</template>
-
-<script>
-import Image from 'solo/c-image'
-import Pane from 'solo/c-pane'
-import FlexBox from 'solo/c-flex-box'
-import FlexItem from 'solo/c-flex-item'
-export default {
-  components: {
-    Image,
-    Pane,
-    FlexBox,
-    FlexItem
-  }
-}
-</script>
-
-<style src="styles/views/demo-misc"></style>
+2002688324, true, count=3, currentLevel=49, lastLevel=96, change_subject_val=47}
+2002682815, true, count=14, currentLevel=121, lastLevel=248, change_subject_val=127}
+2002664658, true, count=0, currentLevel=128, lastLevel=264, change_subject_val=136}
+2002687065, true, count=0, currentLevel=62, lastLevel=124, change_subject_val=62}
+2002696864, true, count=1, currentLevel=54, lastLevel=105, change_subject_val=52}
+2002680423, false, count=3, currentLevel=44, lastLevel=44, change_subject_val=20}
+2002690573, false, count=0, currentLevel=245, lastLevel=245, change_subject_val=126}
+2002679859, true, count=0, currentLevel=123, lastLevel=252, change_subject_val=130}
+2002700498, false, count=0, currentLevel=229, lastLevel=229, change_subject_val=118}
+2002689270, false, count=0, currentLevel=271, lastLevel=271, change_subject_val=140}
+2002693781, true, count=0, currentLevel=59, lastLevel=118, change_subject_val=59}
+2002698699, false, count=2, currentLevel=276, lastLevel=276, change_subject_val=142}
+2002587183, false, count=0, currentLevel=67, lastLevel=67, change_subject_val=33}
+2002690634, false, count=0, currentLevel=430, lastLevel=430, change_subject_val=224}
+2002679196, false, count=0, currentLevel=56, lastLevel=56, change_subject_val=27}
+2002689050, false, count=0, currentLevel=58, lastLevel=58, change_subject_val=27}
+2002657588, false, count=0, currentLevel=323, lastLevel=322, change_subject_val=166}
+2002696719, true, count=1, currentLevel=69, lastLevel=138, change_subject_val=70}
+2002685783, true, count=1, currentLevel=64, lastLevel=129, change_subject_val=65}
+2002680843, false, count=7, currentLevel=220, lastLevel=220, change_subject_val=113}
+2002690970, true, count=0, currentLevel=121, lastLevel=249, change_subject_val=128}
+2002654224, false, count=0, currentLevel=207, lastLevel=207, change_subject_val=106}
+2002682452, false, count=0, currentLevel=309, lastLevel=309, change_subject_val=160}
+2002692307, false, count=0, currentLevel=145, lastLevel=145, change_subject_val=73}
+2002701688, true, count=2, currentLevel=60, lastLevel=119, change_subject_val=60}
+2002624125, false, count=0, currentLevel=106, lastLevel=106, change_subject_val=53}
+2002689063, false, count=0, currentLevel=258, lastLevel=258, change_subject_val=133}
+2002696735, true, count=0, currentLevel=33, lastLevel=62, change_subject_val=30}
+2002688437, true, count=8, currentLevel=127, lastLevel=262, change_subject_val=135}
+2002702091, true, count=0, currentLevel=104, lastLevel=213, change_subject_val=109}
+2002678919, true, count=1, currentLevel=96, lastLevel=196, change_subject_val=101}
+2002702663, true, count=1, currentLevel=63, lastLevel=125, change_subject_val=63}
+2002646699, true, count=1, currentLevel=58, lastLevel=115, change_subject_val=58}
+2002692997, true, count=0, currentLevel=151, lastLevel=313, change_subject_val=162}
+2002699752, true, count=0, currentLevel=120, lastLevel=246, change_subject_val=126}
+2002679865, true, count=12, currentLevel=148, lastLevel=305, change_subject_val=158}
+2002687896, true, count=1, currentLevel=191, lastLevel=396, change_subject_val=205}
+2002700569, true, count=1, currentLevel=65, lastLevel=131, change_subject_val=66}
+2002696196, true, count=2, currentLevel=40, lastLevel=76, change_subject_val=37}
+2002694485, true, count=0, currentLevel=89, lastLevel=181, change_subject_val=92}
+2002666126, true, count=0, currentLevel=43, lastLevel=85, change_subject_val=42}
+2002697928, true, count=0, currentLevel=59, lastLevel=119, change_subject_val=60}
+2002652228, true, count=0, currentLevel=71, lastLevel=143, change_subject_val=72}
+2002677870, true, count=0, currentLevel=13, lastLevel=21, change_subject_val=8}
+2002676731, true, count=6, currentLevel=66, lastLevel=133, change_subject_val=67}
+2002684179, true, count=0, currentLevel=43, lastLevel=85, change_subject_val=42}
+2002675567, true, count=1, currentLevel=34, lastLevel=64, change_subject_val=31}
+2002697720, true, count=1, currentLevel=135, lastLevel=276, change_subject_val=142}
+2002688975, true, count=0, currentLevel=31, lastLevel=58, change_subject_val=27}
+2002675294, true, count=0, currentLevel=119, lastLevel=245, change_subject_val=126}
+2002682351, true, count=0, currentLevel=63, lastLevel=127, change_subject_val=64}
+2002619875, true, count=0, currentLevel=68, lastLevel=138, change_subject_val=70}
+2002678041, true, count=0, currentLevel=134, lastLevel=277, change_subject_val=143}
+2002700936, true, count=1, currentLevel=44, lastLevel=85, change_subject_val=42}
+2002687130, true, count=14, currentLevel=34, lastLevel=65, change_subject_val=31}
+2002688740, true, count=0, currentLevel=56, lastLevel=111, change_subject_val=55}
+2002679584, true, count=0, currentLevel=38, lastLevel=74, change_subject_val=36}
+2002680797, true, count=1, currentLevel=115, lastLevel=235, change_subject_val=121}
+2002698212, true, count=0, currentLevel=57, lastLevel=114, change_subject_val=57}
+2002693157, true, count=0, currentLevel=109, lastLevel=224, change_subject_val=115}
+2002679383, true, count=0, currentLevel=21, lastLevel=38, change_subject_val=17}
+2002700404, true, count=0, currentLevel=68, lastLevel=137, change_subject_val=69}
+2002589891, true, count=0, currentLevel=79, lastLevel=161, change_subject_val=82}
+2002679111, true, count=0, currentLevel=15, lastLevel=26, change_subject_val=11}
+2002681849, true, count=0, currentLevel=134, lastLevel=276, change_subject_val=142}
+2002689741, true, count=0, currentLevel=138, lastLevel=285, change_subject_val=147}
+2002694326, true, count=0, currentLevel=65, lastLevel=130, change_subject_val=65}
+2002703544, true, count=0, currentLevel=40, lastLevel=78, change_subject_val=38}
+2002687433, true, count=4, currentLevel=63, lastLevel=125, change_subject_val=2}
+2002687433, true, count=4, currentLevel=63, lastLevel=123, change_subject_val=62}
+2002685638, true, count=0, currentLevel=122, lastLevel=250, change_subject_val=128}
+2002677590, true, count=1, currentLevel=131, lastLevel=269, change_subject_val=139}
+2002687280, true, count=0, currentLevel=45, lastLevel=88, change_subject_val=43}
+2002687478, true, count=1, currentLevel=53, lastLevel=104, change_subject_val=52}
+2002677987, true, count=0, currentLevel=63, lastLevel=127, change_subject_val=64}
+2002691644, true, count=50, currentLevel=51, lastLevel=102, change_subject_val=51}
+2002674732, true, count=100, currentLevel=102, lastLevel=206, change_subject_val=105}
+2002690284, false, count=60, currentLevel=148, lastLevel=146, change_subject_val=74}
+2002692401, false, count=0, currentLevel=28, lastLevel=27, change_subject_val=11}
+2002687950, false, count=0, currentLevel=21, lastLevel=20, change_subject_val=7}
+2002701713, true, count=0, currentLevel=30, lastLevel=55, change_subject_val=26}
+2002692069, false, count=3, currentLevel=110, lastLevel=106, change_subject_val=53}
+2002672519, false, count=0, currentLevel=35, lastLevel=32, change_subject_val=14}
+2002684112, false, count=74, currentLevel=262, lastLevel=256, change_subject_val=132}
+2002681398, false, count=19, currentLevel=68, lastLevel=66, change_subject_val=32}
+2002632052, false, count=6, currentLevel=69, lastLevel=65, change_subject_val=31}
+2002679035, true, count=47, currentLevel=54, lastLevel=105, change_subject_val=52}
+2002652179, true, count=27, currentLevel=72, lastLevel=139, change_subject_val=70}
+2002679598, false, count=14, currentLevel=102, lastLevel=97, change_subject_val=48}
+2002678595, true, count=75, currentLevel=80, lastLevel=160, change_subject_val=81}
+2002677854, true, count=0, currentLevel=73, lastLevel=143, change_subject_val=72}
+2002677897, false, count=15, currentLevel=119, lastLevel=116, change_subject_val=58}
+2002690051, true, count=0, currentLevel=60, lastLevel=120, change_subject_val=60}
+2002677253, false, count=8, currentLevel=34, lastLevel=33, change_subject_val=14}
+2002696533, false, count=0, currentLevel=117, lastLevel=112, change_subject_val=56}
+2002690396, false, count=41, currentLevel=263, lastLevel=253, change_subject_val=130}
+2002702234, true, count=145, currentLevel=147, lastLevel=301, change_subject_val=155}
+2002686807, false, count=0, currentLevel=158, lastLevel=149, change_subject_val=75}
+2002684369, true, count=0, currentLevel=44, lastLevel=85, change_subject_val=42}
+2002699247, false, count=0, currentLevel=78, lastLevel=75, change_subject_val=36}
+2002590067, false, count=0, currentLevel=148, lastLevel=138, change_subject_val=70}
+2002633386, false, count=61, currentLevel=267, lastLevel=254, change_subject_val=131}
+2002699809, false, count=0, currentLevel=150, lastLevel=144, change_subject_val=73}
+2002694644, false, count=2, currentLevel=44, lastLevel=40, change_subject_val=18}
+2002647016, false, count=0, currentLevel=158, lastLevel=147, change_subject_val=74}
+2002693037, false, count=0, currentLevel=186, lastLevel=175, change_subject_val=89}
+2002701403, false, count=0, currentLevel=111, lastLevel=105, change_subject_val=52}
+2002701992, false, count=0, currentLevel=9, lastLevel=9, change_subject_val=3}
+2002654436, false, count=10, currentLevel=79, lastLevel=76, change_subject_val=37}
+2002685836, false, count=0, currentLevel=220, lastLevel=205, change_subject_val=105}
+2002688501, false, count=10, currentLevel=63, lastLevel=63, change_subject_val=30}
+2002679776, true, count=0, currentLevel=140, lastLevel=276, change_subject_val=142}
+2002689383, false, count=0, currentLevel=284, lastLevel=271, change_subject_val=139}
+2002526661, true, count=21, currentLevel=112, lastLevel=216, change_subject_val=111}
+2002677336, true, count=98, currentLevel=129, lastLevel=262, change_subject_val=135}
+2002686159, true, count=10, currentLevel=127, lastLevel=242, change_subject_val=124}
+2002697205, true, count=10, currentLevel=35, lastLevel=64, change_subject_val=31}
+2002589181, true, count=0, currentLevel=50, lastLevel=97, change_subject_val=48}
+2002641804, true, count=20, currentLevel=88, lastLevel=175, change_subject_val=89}
+2002616278, true, count=31, currentLevel=54, lastLevel=104, change_subject_val=52}
+2002700857, false, count=0, currentLevel=73, lastLevel=70, change_subject_val=34}
+2002701215, false, count=0, currentLevel=51, lastLevel=49, change_subject_val=23}
+2002644578, true, count=0, currentLevel=57, lastLevel=114, change_subject_val=57}
+2002693294, true, count=126, currentLevel=179, lastLevel=369, change_subject_val=192}
+2002682771, false, count=0, currentLevel=36, lastLevel=32, change_subject_val=14}
+2002701232, true, count=72, currentLevel=85, lastLevel=170, change_subject_val=86}
+2002700723, false, count=110, currentLevel=254, lastLevel=248, change_subject_val=128}
+2002685503, false, count=0, currentLevel=257, lastLevel=243, change_subject_val=125}
+2002561108, true, count=0, currentLevel=57, lastLevel=103, change_subject_val=51}
+2002679990, false, count=23, currentLevel=78, lastLevel=74, change_subject_val=36}
+2002689838, true, count=0, currentLevel=47, lastLevel=85, change_subject_val=42}
+2002684436, false, count=8, currentLevel=142, lastLevel=130, change_subject_val=65}
+2002692239, false, count=0, currentLevel=183, lastLevel=177, change_subject_val=90}
+2002685855, false, count=98, currentLevel=211, lastLevel=209, change_subject_val=107}
+2002704019, true, count=0, currentLevel=130, lastLevel=253, change_subject_val=130}
+2002686734, false, count=0, currentLevel=189, lastLevel=172, change_subject_val=87}
+2002681681, false, count=29, currentLevel=73, lastLevel=73, change_subject_val=35}
+2002678643, false, count=109, currentLevel=275, lastLevel=269, change_subject_val=139}
+2002702693, false, count=45, currentLevel=182, lastLevel=177, change_subject_val=90}
+2002693806, true, count=0, currentLevel=32, lastLevel=61, change_subject_val=29}
+2002676936, false, count=0, currentLevel=105, lastLevel=97, change_subject_val=48}
+2002679600, true, count=0, currentLevel=26, lastLevel=44, change_subject_val=20}
+2002686864, false, count=93, currentLevel=247, lastLevel=245, change_subject_val=126}
+2002695449, true, count=111, currentLevel=149, lastLevel=303, change_subject_val=157}
+2002664246, true, count=0, currentLevel=29, lastLevel=51, change_subject_val=24}
+2002689776, false, count=0, currentLevel=41, lastLevel=39, change_subject_val=18}
+2002703898, true, count=24, currentLevel=38, lastLevel=74, change_subject_val=36}
+2002682164, false, count=44, currentLevel=153, lastLevel=151, change_subject_val=76}
+2002642599, false, count=0, currentLevel=17, lastLevel=17, change_subject_val=6}
+2002682179, true, count=41, currentLevel=86, lastLevel=167, change_subject_val=85}
+2002684835, true, count=0, currentLevel=13, lastLevel=19, change_subject_val=7}
+2002654484, true, count=0, currentLevel=30, lastLevel=55, change_subject_val=26}
+2002681555, true, count=1, currentLevel=81, lastLevel=148, change_subject_val=75}
+2002692185, false, count=0, currentLevel=226, lastLevel=213, change_subject_val=109}
+2002681568, true, count=6, currentLevel=121, lastLevel=249, change_subject_val=128}
+2002647598, false, count=0, currentLevel=335, lastLevel=308, change_subject_val=159}
+2002646487, false, count=0, currentLevel=187, lastLevel=176, change_subject_val=90}
+2002624454, true, count=50, currentLevel=108, lastLevel=212, change_subject_val=109}
+2002704159, false, count=8, currentLevel=86, lastLevel=83, change_subject_val=41}
+2002654175, true, count=0, currentLevel=86, lastLevel=162, change_subject_val=82}
+2002662685, true, count=8, currentLevel=30, lastLevel=57, change_subject_val=27}
+2002698067, true, count=20, currentLevel=62, lastLevel=121, change_subject_val=60}
+2002692982, false, count=0, currentLevel=239, lastLevel=223, change_subject_val=115}
+2002677927, false, count=0, currentLevel=88, lastLevel=81, change_subject_val=40}
+2002680017, true, count=0, currentLevel=50, lastLevel=92, change_subject_val=45}
+2002647125, true, count=0, currentLevel=157, lastLevel=303, change_subject_val=156}
+2002650323, true, count=0, currentLevel=17, lastLevel=28, change_subject_val=12}
+2002674541, false, count=97, currentLevel=232, lastLevel=228, change_subject_val=117}
+2002666650, true, count=0, currentLevel=39, lastLevel=73, change_subject_val=35}
+2002647705, false, count=30, currentLevel=329, lastLevel=309, change_subject_val=160}
+2002678172, true, count=0, currentLevel=77, lastLevel=149, change_subject_val=75}
+2002694209, true, count=0, currentLevel=61, lastLevel=116, change_subject_val=58}
+2002661877, false, count=20, currentLevel=248, lastLevel=238, change_subject_val=122}
+2002643710, true, count=3, currentLevel=47, lastLevel=88, change_subject_val=43}
+2002676923, false, count=0, currentLevel=44, lastLevel=41, change_subject_val=19}
+2002699723, false, count=0, currentLevel=219, lastLevel=202, change_subject_val=104}
+2002700231, true, count=9, currentLevel=117, lastLevel=232, change_subject_val=119}
+2002699258, false, count=0, currentLevel=87, lastLevel=83, change_subject_val=41}
+2002681385, false, count=81, currentLevel=270, lastLevel=266, change_subject_val=137}
+2002702202, false, count=12, currentLevel=96, lastLevel=91, change_subject_val=45}
+2002669384, true, count=1, currentLevel=111, lastLevel=210, change_subject_val=107}
+2002696325, true, count=0, currentLevel=45, lastLevel=82, change_subject_val=40}
+2002701689, false, count=0, currentLevel=185, lastLevel=176, change_subject_val=89}
+2002704253, true, count=1, currentLevel=95, lastLevel=185, change_subject_val=94}
+2002665164, true, count=1, currentLevel=142, lastLevel=275, change_subject_val=142}
+2002687584, true, count=0, currentLevel=28, lastLevel=50, change_subject_val=23}
+2002662316, true, count=2, currentLevel=13, lastLevel=20, change_subject_val=2}
+2002692868, false, count=6, currentLevel=56, lastLevel=52, change_subject_val=24}
+2002680334, true, count=0, currentLevel=107, lastLevel=209, change_subject_val=107}
+2002701147, true, count=207, currentLevel=161, lastLevel=331, change_subject_val=171}
+2002679109, true, count=0, currentLevel=43, lastLevel=78, change_subject_val=38}
+2002703247, false, count=0, currentLevel=132, lastLevel=124, change_subject_val=62}
+2002696071, false, count=18, currentLevel=93, lastLevel=90, change_subject_val=45}
+2002677811, false, count=49, currentLevel=165, lastLevel=160, change_subject_val=81}
+2002617121, false, count=0, currentLevel=74, lastLevel=70, change_subject_val=34}
+2002681254, true, count=0, currentLevel=70, lastLevel=135, change_subject_val=68}
+2002676273, true, count=23, currentLevel=29, lastLevel=55, change_subject_val=26}
+2002681812, true, count=0, currentLevel=183, lastLevel=353, change_subject_val=183}
+2002695085, true, count=0, currentLevel=57, lastLevel=109, change_subject_val=54}
+2002696447, true, count=34, currentLevel=75, lastLevel=146, change_subject_val=74}
+2002691047, false, count=0, currentLevel=46, lastLevel=44, change_subject_val=20}
+2002703198, false, count=0, currentLevel=328, lastLevel=303, change_subject_val=157}
+2002669273, false, count=0, currentLevel=172, lastLevel=163, change_subject_val=83}
+2002698756, false, count=0, currentLevel=237, lastLevel=220, change_subject_val=113}
+2002685168, true, count=32, currentLevel=59, lastLevel=115, change_subject_val=58}
+2002675748, true, count=0, currentLevel=19, lastLevel=31, change_subject_val=13}
+2002703815, true, count=74, currentLevel=81, lastLevel=162, change_subject_val=82}
+2002662316, true, count=2, currentLevel=13, lastLevel=18, change_subject_val=7}
+2002678299, true, count=0, currentLevel=68, lastLevel=130, change_subject_val=65}
+2002681123, true, count=0, currentLevel=22, lastLevel=36, change_subject_val=16}
+2002686632, true, count=0, currentLevel=81, lastLevel=154, change_subject_val=78}
+2002702567, false, count=15, currentLevel=36, lastLevel=36, change_subject_val=16}
+2002617529, true, count=10, currentLevel=138, lastLevel=268, change_subject_val=138}
+2002653593, true, count=0, currentLevel=27, lastLevel=48, change_subject_val=22}
+2002701956, true, count=0, currentLevel=72, lastLevel=138, change_subject_val=70}
+2002701466, false, count=10, currentLevel=70, lastLevel=66, change_subject_val=32}
+2002492966, true, count=59, currentLevel=64, lastLevel=127, change_subject_val=64}
+2002692783, true, count=0, currentLevel=97, lastLevel=198, change_subject_val=101}
+2002694886, false, count=19, currentLevel=222, lastLevel=208, change_subject_val=107}
+2002697721, false, count=71, currentLevel=142, lastLevel=142, change_subject_val=72}
+2002694967, true, count=0, currentLevel=103, lastLevel=203, change_subject_val=104}
+2002685295, true, count=149, currentLevel=142, lastLevel=293, change_subject_val=151}
+2002693384, true, count=10, currentLevel=136, lastLevel=268, change_subject_val=138}
+2002634989, true, count=10, currentLevel=140, lastLevel=286, change_subject_val=148}
+2002680819, true, count=11, currentLevel=149, lastLevel=292, change_subject_val=151}
+2002678887, true, count=100, currentLevel=136, lastLevel=275, change_subject_val=142}
+2002695689, false, count=13, currentLevel=147, lastLevel=134, change_subject_val=67}

@@ -1,0 +1,2 @@
+webpackJsonp([22],{224:function(o,t,e){var p,s;s=e(410),o.exports=p||{},o.exports.__esModule&&(o.exports=o.exports["default"]),s&&(("function"==typeof o.exports?o.exports.options||(o.exports.options={}):o.exports).template=s)},410:function(o,t){o.exports="<div class=view-about> About </div>"}});
+//# sourceMappingURL=22.3d8851630ba912582720.js.map

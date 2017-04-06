@@ -3,9 +3,12 @@ import { POST, DELETE } from 'utils/ajax'
 
 export default {
   getBearer ({ dispatch }, payload) {
-    dispatch(GET_BEARER, POST('/apis/auth/login', {
-      body: payload
-    }))
+    // const auth = location.search...
+    // console.log("22222")
+    // console.log(location)
+    location()
+
+    dispatch(GET_BEARER, location())
   },
 
   deleteBearer ({ dispatch }) {

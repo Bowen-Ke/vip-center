@@ -37,7 +37,7 @@ const APP_ENTRY_PATH = paths.src('index.js')
 webpackConfig.entry = {
   app: __DEV__
     ? [APP_ENTRY_PATH, 'webpack-hot-middleware/client']
-    : [APP_ENTRY_PATH],
+    : ['babel-polyfill', APP_ENTRY_PATH],
   vendor: config.compiler_vendor
 }
 
@@ -134,7 +134,8 @@ webpackConfig.vue = {
         mixinsDir: paths.src('themes/default/mixins')
       }),
       require('postcss-cssnext')({
-        browsers: 'last 1 version'
+        // see: https://github.com/ai/browserslist#queries
+        browsers: 'Android >= 4, iOS >= 7'
       }),
       require('postcss-browser-reporter')(),
       require('postcss-reporter')()

@@ -48,6 +48,7 @@ export default {
         return
       }
       $payload.password = md5($payload.password)
+      console.log($payload)
       this.getBearer($payload)
     }
   },

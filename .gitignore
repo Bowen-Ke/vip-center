@@ -3,6 +3,7 @@
 *.log
 *.old
 *.out
+*.idea
 
 node_modules
 

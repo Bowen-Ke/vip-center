@@ -1,12 +1,69 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
-    <title>plat</title>
-  </head>
-  <body>
-    <app></app>
-    <!-- built files will be auto injected -->
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=0">
+  <title>会员中心</title>
+  <script>
+  window.onerror = function (e, f) {
+    // alert(e)
+    // alert(f)
+  }
+  </script>
+  <script>
+    //手机端单位自适应变化
+    (function (doc, win) {
+      var docEl = doc.documentElement,
+        resizeEvt = 'orientationchange' in window ? 'orientationchange' : 'resize',
+        recalc = function () {
+          var clientWidth = docEl.clientWidth;
+          if (!clientWidth) return;
+          docEl.style.fontSize = 75 * (clientWidth / 750) + 'px';
+        };
+
+      if (!doc.addEventListener) return;
+      win.addEventListener(resizeEvt, recalc, false);
+      doc.addEventListener('DOMContentLoaded', recalc, false);
+    })(document, window);
+  </script>
+  <script src="https://localhost/JsBridge.js"></script>
+  <script>
+  if(window.Bridge){
+    window.bridgeReady = function () {
+      console.log("*** bridge is ready ***");
+      // alert("*** bridge is ready ***")
+      var webContainer = window.Bridge.require("webcontainer").promise();
+      console.log("*** open refresh　***")
+      // 下拉监听
+      webContainer.setWebViewContainerRefreshListener({}).progress(function () {
+        // var text = document.getElementById("html_body").innerHtml;
+        console.log("*** webview container refresh callback ***");
+        // alert("*** webview container refresh callback android ***");
+        window.location.reload()
+        webContainer.stopWebViewContainerRefresh();
+      })
+      // alert("*** open refresh　***")
+      // 开启下拉刷新必须在监听之后
+      webContainer.setWebViewContainerRefreshEnable({"enable": true});
+    }
+  }
+
+  // if (!window.onPageShow) {
+  //   var sys = window.Bridge.require("sdp.sys");
+  //   var type = sys.getPlatform();
+  //   alert(type)
+  //   window.onPageShow = function () {
+  //       window.location.reload()
+  //   }
+// }
+  </script>
+  <style src="styles/views/vip1"></style>
+</head>
+<body>
+<app></app>
+<div  id = 'xxx'>
+<!-- {{ vip1.desc}} -->
+</div>
+<!-- built files will be auto injected -->
+</body>
 </html>

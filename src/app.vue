@@ -1,21 +1,11 @@
 <template>
-  <div class="container">
+  <div >
     <progress class="progress"
       :progress="progress"></progress>
     <toast class="toast"
       :toasts="toasts"
       @remove="removeToast"></toast>
-    <header class="header">
-      <logo class="logo">
-        <a v-link="{ path: '/', exact: true }">plato</a>
-      </logo>
-      <navbar class="navbar">
-        <route
-          :filter="filter"
-          :routes="routes"
-          ></route>
-      </navbar>
-    </header>
+
     <router-view class="router-view"
       transition="router-view-transition"
       transition-mode="out-in"

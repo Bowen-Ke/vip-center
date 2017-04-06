@@ -3,5 +3,5 @@ export default {
   title: '首页',
   name: 'home',
   exact: true,
-  component: resolve => require(['views/home'], resolve)
+  component: resolve => require(['views/vip0'], resolve)
 }
